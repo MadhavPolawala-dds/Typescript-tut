@@ -41,3 +41,5 @@ let myUser2: Admin = {
   gitHubToken: "awe54wq6e9846844",
   role: "AngularDeveloper",
 };
+
+export {};

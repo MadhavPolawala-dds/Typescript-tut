@@ -37,3 +37,4 @@ let typeOfHuman: "vegetarian" | "nonvegetarian";
 typeOfHuman = "vegetarian";
 
 // typeOfHuman = "eggetarian"   // Not possible
+export {};

@@ -5,3 +5,5 @@ user = ["Madhav", 22, true];
 // user = [true, 23, "Madhav"];      // Not usable
 
 let rgb: [number, number, number] = [215, 155, 256];
+
+export {};
