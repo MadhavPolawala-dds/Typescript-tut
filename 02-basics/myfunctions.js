@@ -11,9 +11,8 @@ function addNumTwo(num) {
 var myValue = addNumTwo(10);
 console.log(myValue);
 var arrowFun = function (name) {
-    return "POlawala";
+    return "Polawala";
 };
-console.log(arrowFun("madhav"));
 function getUpper(value) {
     return value.toUpperCase();
 }
@@ -24,3 +23,13 @@ function signUpUser(name, email, isLoggedIn) {
 var loginUser = function (name, email, isLoggedIn) {
     if (isLoggedIn === void 0) { isLoggedIn = true; }
 };
+var ARs = ["M416", "AKM", "SCARL"];
+ARs.map(function (AR) {
+    return "AR includes  ".concat(AR);
+});
+function consoleError(errMsg) {
+    console.log(errMsg);
+}
+function handleError(errMsg) {
+    throw new Error(errMsg);
+}
