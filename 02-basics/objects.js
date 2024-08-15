@@ -8,4 +8,11 @@ var user = {
 function createUser(_a) {
     var string = _a.name, boolean = _a.isPaid;
 }
-createUser({ name: 5, isPaid: false });
+var newUser = { name: "Madhav", isPaid: false, email: "madhav@gmail.com" };
+createUser(newUser);
+function createCourse() {
+    return {
+        name: "Typescript",
+        price: 999,
+    };
+}
