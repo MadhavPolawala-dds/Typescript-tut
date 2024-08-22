@@ -23,7 +23,7 @@ let myUser: User = {
     return "Database trial started";
   },
   getCoupon: (name: "Madhav", discount: 25) => {
-    return 25;
+    return discount;
   },
   gitHubToken: "awe54wq6e9846844",
 };
